@@ -1,0 +1,150 @@
+.containerGroup
+{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100vh;
+   
+}
+.groupList
+{
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: 10vw;
+}
+.groupHeader
+{
+    color: black;
+    font-weight: 500;
+    font-size: 2vw;
+    text-align: left;
+    width: 90%;
+    position: absolute;
+    top: 0%;
+}
+.underList
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;   
+}
+div::-webkit-scrollbar {
+    display: none;
+  }
+.list
+{
+    width: 100%;
+    text-align: left;
+    padding:0.5em 2.5em;
+    margin-top: 1em;
+    height: 8vh;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.coloredDiv
+{
+    background-color: #F7ECDC;
+}
+.circle
+{
+    /* background-color:blue; */
+    color: white;
+    border-radius: 50%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    padding: 0.5em .5em;
+}
+.header
+{
+    width: 50%;
+    margin-left: 1.5em;
+}
+.flexibleDivs
+{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:426px) {
+    .containerGroup
+{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    height: 100vh;
+   
+}
+.list
+{
+    width: 100%;
+    text-align: left;
+    padding:0.5em 2.5em;
+    margin-top: -1em;
+    height: 8vh;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 5.5vw;
+}
+.groupHeader
+{
+    color: black;
+    font-weight: 500;
+    font-size: 8.5vw;
+    text-align: center;
+    position: relative;
+    margin-right: auto;
+    top: 0%;
+}
+.circle
+{
+    /* background-color:blue; */
+    color: white;
+    border-radius: 50%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 3.5vw;
+    padding: 0.5em .5em;
+}
+.underList
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;   
+}
+.coloredDiv
+{
+    background-color: white;
+}
+}

@@ -1,0 +1,202 @@
+.containerNote
+{
+    background-color: #E8E8E8;
+    width: 70%;
+    min-width:70vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.topSection
+{
+    display: flex;
+    background-color: #E8E8E8;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1em;
+}
+.middleSection
+{
+    background-color: #F7ECDC;
+    flex:6;
+    overflow-y: scroll;
+}
+.bottomSection
+{
+    background-color: #E8E8E8;
+    flex:3;
+    overflow-x: hidden;
+    padding: 1.5em 1.5em;
+    position: relative;
+}
+.header1
+{
+    width: 20%;
+    margin-left: 0.5em;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.msgContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.innerContainer
+{
+display: flex;
+align-items: baseline;
+
+overflow-y: auto;
+font-family: 'Roboto',sans-serif;
+}
+.msgLeftContainer
+{
+    width: 25%;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10%;
+    min-width: 40vh;
+
+}
+.msgRightContainer
+{
+    width: 60%;
+    /* min-width: 70vw; */
+    text-align: left;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.textArea
+{
+    width: 90%;
+    height: 25vh;
+    resize: none;
+    border-radius: 1rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    padding: 0.25em 1em;
+    padding-right: 5em;
+    margin-left: -47%;
+    position: absolute;
+    box-sizing: border-box;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+textarea::-webkit-scrollbar {
+  display: none; 
+}
+/* .notePara
+{
+    padding-right: 10em;
+} */
+.msgLogo
+{
+position: absolute;
+  bottom: 25%;
+  right: 10%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.circle1
+{
+    margin-left: 2em;
+}
+.mobile-only {
+    display: none;
+  }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:426px) {
+    .notePara
+{
+    padding-right: 0em;
+}
+    .msgLeftContainer
+{
+    width: 25%;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10%;
+    min-width: 40vw;
+}
+.msgRightContainer
+{
+    width: 60%;
+    text-align: left;
+    font-weight: 400;
+    word-wrap:break-word;
+}
+    .topSection
+{
+    display: flex;
+    background-color: #E8E8E8;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1em;
+}
+.middleSection
+{
+    background-color: #F7ECDC;
+    flex:6;
+    overflow-y: scroll;
+}
+.bottomSection
+{
+    background-color: #E8E8E8;
+    flex:2;
+    overflow-x: hidden;
+    padding: 1.5em 1.5em;
+    position: relative;
+}
+    .textArea
+{
+    width: 90%;
+    height: 15vh;
+    resize: none;
+    border-radius: 1rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    padding: 2em 2em;
+    padding-right: 5em;
+    margin-left: -47%;
+    position: absolute;
+    box-sizing: border-box;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+    .containerNote
+{
+    background-color: #E8E8E8;
+    width: 100%;
+    min-width:70vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.header1
+{
+    width: 20%;
+    margin-left: 0.5em;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 5.5vw;
+}
+.msgLogo
+{
+position: absolute;
+  bottom: 45%;
+  right: 10%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mobile-only {
+    display: block; /* show the element on mobile */
+  }
+}
